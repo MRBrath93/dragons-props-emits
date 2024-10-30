@@ -22,7 +22,7 @@ const model = defineModel();
         <form>
             <label for="betterName">Rename to:</label>
             <input v-model="model" type="text" placeholder="Better name..." id="betterName" required>
-            <input type="submit" value="Update name" />
+            <input type="submit" value="Update name"/>
         </form>
     </article>
 </template>
